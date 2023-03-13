@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import Footer from './components/Footer.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
