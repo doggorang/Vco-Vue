@@ -1,11 +1,5 @@
-<script setup>
-defineProps({
-  year: new Date().getFullYear()
-})
-</script>
-
 <template>
-  <Footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
+  <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
     <div class="container">
       <div class="row justify-content-md-center text-xl-left">
         <div class="col-md-12">
@@ -91,13 +85,13 @@ defineProps({
                         </blockquote>
                       </div>
                     </div>
-              <div class="offset-top-34 text-sm-center text-lg-left">            
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a class="icon fa fa-facebook icon-xxs icon-circle icon-darkest-filled" href="#"></a></li>
-                  <li class="list-inline-item"><a class="icon fa fa-twitter icon-xxs icon-circle icon-darkest-filled" href="#"></a></li>
-                  <li class="list-inline-item"><a class="icon fa fa-google-plus icon-xxs icon-circle icon-darkest-filled" href="#"></a></li>
-                  <li class="list-inline-item"><a class="icon fa fa-linkedin icon-xxs icon-circle icon-darkest-filled" href="#"></a></li>
-                </ul>
+              <div class="offset-top-34 text-sm-center text-lg-left">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><a class="icon fa fa-facebook icon-xxs icon-circle icon-darkest-filled" href="#"></a></li>
+                        <li class="list-inline-item"><a class="icon fa fa-twitter icon-xxs icon-circle icon-darkest-filled" href="#"></a></li>
+                        <li class="list-inline-item"><a class="icon fa fa-google-plus icon-xxs icon-circle icon-darkest-filled" href="#"></a></li>
+                        <li class="list-inline-item"><a class="icon fa fa-linkedin icon-xxs icon-circle icon-darkest-filled" href="#"></a></li>
+                      </ul>
               </div>
             </div>
           </div>
@@ -105,31 +99,17 @@ defineProps({
       </div>
     </div>
     <div class="container offset-top-50">
-      <p class="small text-darker"><span>&copy;&nbsp;</span><span>{{ year }}</span><span>&nbsp;</span><span>Veggies&Co</span>. All Rights Reserved.</p>
+      <p class="small text-darker"><span>&copy;&nbsp;</span><span>{{ new Date().getFullYear() }}</span><span>&nbsp;</span><span>Veggies&Co</span>. All Rights Reserved.</p>
     </div>
-  </Footer>
+  </footer>
 </template>
 
 <style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  top: -10px;
+.page .text-darker {
+	color: #333333 !important;
 }
 
-h3 {
-  font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
+.page a.text-darker:hover, .page a.text-darker:focus {
+	color: #1a1a1a !important;
 }
 </style>
