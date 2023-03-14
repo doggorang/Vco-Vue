@@ -1,9 +1,6 @@
 <script setup>
 defineProps({
-  year: {
-    type: Number,
-    required: true
-  }
+  year: new Date().getFullYear()
 })
 </script>
 
