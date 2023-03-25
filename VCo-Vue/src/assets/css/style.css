@@ -10458,7 +10458,7 @@ fieldset[disabled] .swiper-slide-caption .pagination-classic > li + li:not(:last
 }
 
 .rd-navbar {
-	/* display: none; */
+	display: none;
 	position: relative;
 	z-index: 99999;
 	text-align: left;

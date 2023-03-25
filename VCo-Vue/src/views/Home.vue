@@ -2,11 +2,11 @@
   <main class="page-content">
     <!--Section Intro-->
     <section class="context-dark">
-      <div class="parallax-container" data-parallax-img="images/cultivating-microgreens.jpg">
+      <div class="parallax-container" data-parallax-img="../assets/images/home/cultivating-microgreens.jpg">
         <div class="parallax-content">
           <div class="container">
             <div class="section-110 section-cover row justify-content-sm-center align-items-sm-center">
-              <div class="col-lg-8"><img src="images/icon/Icon PSD V1 12-02-2023.ico" alt="" width="175" height="173">
+              <div class="col-lg-8"><img src="../assets/images/icon/Icon PSD V1 12-02-2023.ico" alt="" width="175" height="173">
                 <h1 class="font-accent"><span class="big">veggies & co</span></h1>
                 <div class="group">
                   <div class="group-item d-block"><span class="icon icon-xxs mdi mdi-navigation text-middle"></span> <span class="text-middle"><a class="link-white" href="https://goo.gl/maps/tPYpd55ZEM9vVsGX7">Jl. Tropodo, Tropodo Sidoarjo Jawa Timur</a></span>
