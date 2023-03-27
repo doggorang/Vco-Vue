@@ -1,7 +1,9 @@
 <script>
 const routes = {
-  '/': About,
-  '/about': About
+  '/': Home,
+  '/About': About,
+  '/Products': Products,
+  '/Contacts': Contacts
 }
 
 export default {
@@ -18,6 +20,8 @@ import Footer from './components/Footer.vue'
 
 import Home from './views/Home.vue'
 import About from './views/About.vue'
+import Products from './views/Products.vue'
+import Contacts from './views/Contacts.vue'
 import NotFound from './views/NotFound.vue'
 </script>
 

@@ -1,58 +1,29 @@
+<script>
+
+</script>
 <template>
   <header class="page-head slider-menu-position">
-    <!-- RD Navbar Transparent-->
-    <div class="rd-navbar-wrap">
-      <nav class="rd-navbar rd-navbar-default rd-navbar-transparent" data-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
-        <div class="rd-navbar-inner">
-          <!-- RD Navbar Panel-->
-          <div class="rd-navbar-panel">
-            <!-- RD Navbar Toggle-->
-            <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
-            <!--Navbar Brand-->
-            <div class="rd-navbar-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='images/logo/Logo PSD V1 12-02-2023.png' alt=''/></a></div>
-          </div>
-          <div class="rd-navbar-menu-wrap">
-            <div class="rd-navbar-nav-wrap">
-              <div class="rd-navbar-mobile-scroll">
-                <!--Navbar Brand Mobile-->
-                <div class="rd-navbar-mobile-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='images/logo/Logo PSD V1 12-02-2023.png' alt=''/></a></div>
-                <div class="form-search-wrap">
-                  <form class="form-search" action="#" method="GET">
-                    <div class="form-group">
-                      <label class="form-label form-search-label form-label-sm" for="rd-navbar-form-search-widget">Search</label>
-                      <input class="form-search-input input-sm form-control form-control-gray-lightest input-sm" id="rd-navbar-form-search-widget" type="text" name="s" autocomplete="off"/>
-                    </div>
-                    <button class="form-search-submit" type="submit"><span class="mdi mdi-magnify"></span></button>
-                  </form>
-                </div>
-                <!-- RD Navbar Nav-->
-                <ul class="rd-navbar-nav">
-                  <li class="active"><a href="index.html"><span>Home</span></a>
-                  </li>
-                  <li><a href="about.html"><span>About Us</span></a>
-                  </li>
-                  <li><a href="product.html"><span>Products</span></a>
-                  </li>
-                  <!-- <li><a href="typography.html"><span>Typography</span></a>
-                  </li> -->
-                  <li><a href="contacts.html"><span>Contacts</span></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!--RD Navbar Search-->
-            <div class="rd-navbar-search"><a class="rd-navbar-search-toggle mdi" data-rd-navbar-toggle=".rd-navbar-inner,.rd-navbar-search" href="#"><span></span></a>
-              <form class="rd-navbar-search-form search-form-icon-right" action="#" method="GET">
-                <div class="form-group">
-                  <label class="form-label" for="rd-navbar-search-form-input">Type and hit enter...</label>
-                  <input class="rd-navbar-search-form-input form-control form-control-gray-lightest" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off"/>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
   </header>
 </template>
 
