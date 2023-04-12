@@ -67,40 +67,40 @@
             <div class="col-12">
               <div class="isotope" data-isotope-layout="masonry" data-isotope-group="gallery">
                 <div class="row" data-lightgallery="group">
-                  <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-01-285x285.jpg">
-                      <figure><img width="285" height="285" src="images/gallery-01-285x285.jpg" alt=""/>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="../assets/images/home/gallery-285x285.jpg">
+                      <figure><img width="285" height="285" src="../assets/images/home/gallery-285x285.jpg" alt=""/>
                       </figure></a>
                   </div>
-                  <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-02-285x285.jpg">
-                      <figure><img width="285" height="285" src="images/gallery-02-285x285.jpg" alt=""/>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="../assets/images/home/gallery-285x285.jpg">
+                      <figure><img width="285" height="285" src="../assets/images/home/gallery-285x285.jpg" alt=""/>
                       </figure></a>
                   </div>
-                  <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-03-601x442.jpg">
-                      <figure><img width="601" height="442" src="images/gallery-03-601x442.jpg" alt=""/>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="../assets/images/home/gallery-601x442.jpg">
+                      <figure><img width="601" height="442" src="../assets/images/home/gallery-601x442.jpg" alt=""/>
                       </figure></a>
                   </div>
-                  <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-04-600x600.jpg">
-                      <figure><img width="600" height="600" src="images/gallery-04-600x600.jpg" alt=""/>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="../assets/images/home/gallery-600x600.jpg">
+                      <figure><img width="600" height="600" src="../assets/images/home/gallery-600x600.jpg" alt=""/>
                       </figure></a>
                   </div>
-                  <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-05-600x600.jpg">
-                      <figure><img width="600" height="600" src="images/gallery-05-600x600.jpg" alt=""/>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="../assets/images/home/gallery-600x600.jpg">
+                      <figure><img width="600" height="600" src="../assets/images/home/gallery-600x600.jpg" alt=""/>
                       </figure></a>
                   </div>
-                  <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-06-285x443.jpg">
-                      <figure><img width="285" height="443" src="images/gallery-06-285x443.jpg" alt=""/>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="../assets/images/home/gallery-285x443.jpg">
+                      <figure><img width="285" height="443" src="../assets/images/home/gallery-285x443.jpg" alt=""/>
                       </figure></a>
                   </div>
-                  <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-07-285x443.jpg">
-                      <figure><img width="285" height="443" src="images/gallery-07-285x443.jpg" alt=""/>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="../assets/images/home/gallery-285x443.jpg">
+                      <figure><img width="285" height="443" src="../assets/images/home/gallery-285x443.jpg" alt=""/>
                       </figure></a>
                   </div>
-                  <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-08-285x285.jpg">
-                      <figure><img width="285" height="285" src="images/gallery-08-285x285.jpg" alt=""/>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="../assets/images/home/gallery-285x285.jpg">
+                      <figure><img width="285" height="285" src="../assets/images/home/gallery-285x285.jpg" alt=""/>
                       </figure></a>
                   </div>
-                  <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-09-285x285.jpg">
-                      <figure><img width="285" height="285" src="images/gallery-09-285x285.jpg" alt=""/>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="../assets/images/home/gallery-285x285.jpg">
+                      <figure><img width="285" height="285" src="../assets/images/home/gallery-285x285.jpg" alt=""/>
                       </figure></a>
                   </div>
                 </div>
