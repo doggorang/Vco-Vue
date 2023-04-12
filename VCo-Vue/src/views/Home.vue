@@ -17,7 +17,7 @@
                   </div>
                 </div>
                 <p class="offset-top-24 big d-none d-md-block">We introduce new cultures to visitors through cuisines of various countries, offering a special dish to everyone regardless of their food preferences.</p>
-                <div class="group offset-top-50"><a class="btn btn-lg btn-primary" href="product.html" data-custom-scroll-to="reserve-now">Order Now</a></div>
+                <div class="group offset-top-50"><a class="btn btn-lg btn-primary" href="/Products" data-custom-scroll-to="reserve-now">Order Now</a></div>
               </div>
             </div>
           </div>
