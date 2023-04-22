@@ -1,3 +1,9 @@
+<script>
+/*
+install vue-owl-carousel
+buat owl carousel untuk testimony
+*/
+</script>
 <template>
     <main class="page-content">
         <!-- Section Intro-->

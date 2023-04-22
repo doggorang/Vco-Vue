@@ -32,5 +32,5 @@ import NotFound from './views/NotFound.vue'
 </template>
 
 <style scoped>
-
+  
 </style>

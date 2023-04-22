@@ -2,6 +2,14 @@
 @import './css/style.css';
 @import './css/fonts.css';
 
+.parallax-container {
+  background-image: url("../assets/images/home/cultivating-microgreens.jpg"); /* The image used */
+  background-color: #000000; /* Used if the image is unavailable */
+  /*height: 500px;  You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
 /* #app {
   max-width: 1280px;
   margin: 0 auto;

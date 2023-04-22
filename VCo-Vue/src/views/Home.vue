@@ -2,7 +2,7 @@
   <main class="page-content">
     <!--Section Intro-->
     <section class="context-dark">
-      <div class="parallax-container" data-parallax-img="../assets/images/home/cultivating-microgreens.jpg">
+      <div class="parallax-container">
         <div class="parallax-content">
           <div class="container">
             <div class="section-110 section-cover row justify-content-sm-center align-items-sm-center">
@@ -112,3 +112,7 @@
     </section>
   </main>
 </template>
+
+<style scoped>
+  
+</style>
