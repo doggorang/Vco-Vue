@@ -6,10 +6,10 @@
         <div class="parallax-content">
           <div class="container">
             <div class="section-110 section-cover row justify-content-sm-center align-items-sm-center">
-              <div class="col-lg-8"><img src="../assets/images/icon/Icon PSD V1 12-02-2023.ico" alt="" width="175" height="173">
+              <div class="col-lg-8"><img src="../assets/images/logo/Icon PSD V1 12-02-2023.png" alt="" width="175" height="173">
                 <h1 class="font-accent"><span class="big">veggies & co</span></h1>
                 <div class="group">
-                  <div class="group-item d-block"><span class="icon icon-xxs mdi mdi-navigation text-middle"></span> <span class="text-middle"><a class="link-white" href="https://goo.gl/maps/tPYpd55ZEM9vVsGX7">Jl. Tropodo, Tropodo Sidoarjo Jawa Timur</a></span>
+                  <div class="group-item d-block"><span class="icon icon-xxs mdi mdi-navigation text-middle"></span> <span class="text-middle"><a class="link-white" href="https://goo.gl/maps/tPYpd55ZEM9vVsGX7" target="_blank">Jl. Tropodo, Tropodo Sidoarjo Jawa Timur</a></span>
                   </div>
                   <div class="group-item"><span class="icon icon-xxs mdi mdi-clock text-middle"></span> <span class="text-middle">09:00 am - 18:00 pm</span>
                   </div>
@@ -55,7 +55,7 @@
               <div>
                 <h1 class="font-accent"><span class="big">Our Gallery</span></h1>
               </div>
-              <div class="h3 text-uppercase text-light offset-top-4">Check Out Our Restaurant</div>
+              <div class="h3 text-uppercase text-light offset-top-4">Check Out Our Journey</div>
             </div>
           </div>
         </div>
