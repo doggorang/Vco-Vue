@@ -3,11 +3,21 @@
 export default {
     data() {
         return {
-            content: "<H1>All</H1>"
+            content: "<H1>All</H1>",
+            activeTab: 0
         }
     },
     methods: {
         filter(category) {
+            if (category == "Veggetable") {
+                this.activeTab = 0;
+            } else if (category = "Snack") {
+                this.activeTab = 1;
+            } else if (category = "Dessert") {
+                this.activeTab = 2;
+            } else {
+                this.activeTab = 0;
+            }
             this.content = `<H1>${category}</H1>`;
         }
     }
@@ -44,9 +54,14 @@ export default {
                         <li class="list-inline-item section-relative">
                         <button class="isotope-filters-toggle btn btn-sm btn-default" data-custom-toggle="isotope-1" data-custom-toggle-disable-on-blur="true">Filter<span class="caret"></span></button>
                         <ul class="list-sm-inline isotope-filters-list" id="isotope-1">
-                            <li class="list-inline-item"><a class="text-sbold active" href="#" @click="filter('Veggetable')">Veggetable</a></li>
-                            <li class="list-inline-item"><a class="text-sbold" href="#" @click="filter('Snack')">Snack</a></li>
-                            <li class="list-inline-item"><a class="text-sbold" href="#" @click="filter('Desserts')">Desserts</a></li>
+                            <!-- .teamSelector { cursor: pointer; } -->
+                            <!-- span:hover { cursor:pointer; } -->
+                            <li class="list-inline-item"><a class="text-sbold"
+                                :class="{ 'active': activeTab == 0 }" @click="filter('Veggetable')">Veggetable</a></li>
+                            <li class="list-inline-item"><a class="text-sbold"
+                                :class="{ active: activeTab == 1 }" @click="filter('Snack')">Snack</a></li>
+                            <li class="list-inline-item"><a class="text-sbold"
+                                :class="{ active: activeTab == 2 }" @click="filter('Dessert')">Dessert</a></li>
                         </ul>
                         </li>
                     </ul>
