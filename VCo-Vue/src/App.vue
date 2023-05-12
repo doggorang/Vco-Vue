@@ -1,9 +1,9 @@
 <script>
 const routes = {
   '/': Home,
-  '/About': About,
-  '/Products': Products,
-  '/Contacts': Contacts
+  '/about': About,
+  '/product': Products,
+  '/contact': Contacts
 }
 
 export default {
