@@ -1,4 +1,32 @@
 <script>
+import 'vue3-carousel/dist/carousel.css';
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
+export default {
+  components: {
+    Carousel,
+    Slide,
+    Pagination,
+    Navigation,
+  },
+  data() {
+    return {
+      testimonials: [
+        {
+          content: 'I will never stop visiting this place. It is just a hideaway for me. It is located in a quiet district and I like to come here after work. I enjoy my meals and think of my global plans. Everything is perfect here.',
+          author: 'John Doe'
+        },
+        {
+          content: 'I had my birthday party here this weekend. I have heard so many good reviews of this restaurant. It did not disappoint. The food was spectacular. Fresh and delicious. Everyone was very pleased.',
+          author: 'Julia Smith'
+        },
+        {
+          content: 'This place was fun and the food was good. The diversity of your menu impressed so much. All the dishes tasted great. Thank you! Would definitely recommend to all my friends.',
+          author: 'Alex Ross'
+        }
+      ]
+    }
+  },
+}
 /*
 install vue-owl-carousel
 buat owl carousel untuk testimony
@@ -75,6 +103,29 @@ buat owl carousel untuk testimony
             </div>
           </div>
         </section>
+
+        <h1>Testimonials</h1>
+        <carousel :items-to-show="1.5">
+          <slide v-for="slide in testimonials" :key="slide">
+            <div>
+              <blockquote class="quote inset-left-7p inset-right-7p">
+                <div class="icon mdi mdi-comment-text-outline"></div>
+                <p class="offset-top-30">
+                  <q>{{ slide.content }}</q>
+                </p>
+                <h6 class="text-uppercase">
+                  <cite class="text-normal text-light">- {{ slide.author }}, Visitor</cite>
+                </h6>
+              </blockquote>
+            </div>
+          </slide>
+
+          <template #addons>
+            <navigation />
+            <pagination />
+          </template>
+        </carousel>
+
         <!-- Testimonials-->
         <section class="bg-gray-darkest section-98 section-110 context-dark">
           <div class="container">
