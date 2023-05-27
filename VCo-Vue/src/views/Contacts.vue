@@ -6,7 +6,7 @@
             <div class="parallax-content">
               <div class="container">
                 <div class="section-110 row justify-content-sm-center align-items-sm-center">
-                  <div class="col-lg-8"><img src="../assets/images/icon/Icon PSD V1 12-02-2023.ico" alt="" width="175" height="173">
+                  <div class="col-lg-8"><img src="@/assets/images/logo/logo.png" alt="" width="175" height="173">
                     <h1 class="font-accent"><span class="big">Contacts</span></h1>
                     <ul class="list-inline list-inline-dashed p">
                       <li class="list-inline-item"><a href="/">Home</a></li>

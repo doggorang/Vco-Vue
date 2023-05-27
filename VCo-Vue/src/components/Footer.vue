@@ -27,7 +27,7 @@
             </div>
             <div class="col-sm-12 offset-top-66 col-xl-3 order-xl-1 offset-xl-top-0 order-lg-3">
               <!-- Footer brand-->
-              <div class="footer-brand"><a href="/"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='68' src='../assets/images/logo/Logo PSD V1 12-02-2023.png' alt=''/></a></div>
+              <div class="footer-brand"><a href="/"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='68' src='@/assets/images/logo/logo-big.png' alt=''/></a></div>
               <p class="text-darker offset-top-4">Get the best dining experience</p>
               <address class="contact-info offset-top-30 p">
                 <div>
