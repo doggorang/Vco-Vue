@@ -104,68 +104,31 @@ buat owl carousel untuk testimony
           </div>
         </section>
 
-        <h1>Testimonials</h1>
-        <carousel :items-to-show="1.5">
-          <slide v-for="slide in testimonials" :key="slide">
-            <div>
-              <blockquote class="quote inset-left-7p inset-right-7p">
-                <div class="icon mdi mdi-comment-text-outline"></div>
-                <p class="offset-top-30">
-                  <q>{{ slide.content }}</q>
-                </p>
-                <h6 class="text-uppercase">
-                  <cite class="text-normal text-light">- {{ slide.author }}, Visitor</cite>
-                </h6>
-              </blockquote>
-            </div>
-          </slide>
-
-          <template #addons>
-            <navigation />
-            <pagination />
-          </template>
-        </carousel>
-
         <!-- Testimonials-->
         <section class="bg-gray-darkest section-98 section-110 context-dark">
           <div class="container">
             <h1><span class="d-block font-accent big">Testimonials</span><span class="d-block offset-top-4 h3 text-light text-uppercase">What people say</span></h1>
             <hr class="divider bg-mantis offset-top-30">
-            <div class="owl-carousel owl-carousel-default owl offset-top-50 veil-owl-nav veil-lg-owl-dots reveal-lg-owl-nav" data-items="1" data-nav="true" data-nav-class="[&quot;owl-prev mdi mdi-chevron-left&quot;,&quot;owl-next mdi mdi-chevron-right&quot;]" data-dots="true" data-autoplay="true" data-loop="true">
-              <div>
-                <blockquote class="quote inset-left-7p inset-right-7p">
-                  <div class="icon mdi mdi-comment-text-outline"></div>
-                  <p class="offset-top-30">
-                    <q>I will never stop visiting this place. It is just a hideaway for me. It is located in a quiet district and I like to come here after work. I enjoy my meals and think of my global plans. Everything is perfect here.</q>
-                  </p>
-                  <h6 class="text-uppercase">
-                    <cite class="text-normal text-light">- John Doe, Visitor</cite>
-                  </h6>
-                </blockquote>
-              </div>
-              <div>
-                <blockquote class="quote inset-left-7p inset-right-7p">
-                  <div class="icon mdi mdi-comment-text-outline"></div>
-                  <p class="offset-top-30">
-                    <q>I had my birthday party here this weekend. I have heard so many good reviews of this restaurant. It did not disappoint. The food was spectacular. Fresh and delicious. Everyone was very pleased.</q>
-                  </p>
-                  <h6 class="text-uppercase">
-                    <cite class="text-normal text-light">- Julia Smith, Visitor</cite>
-                  </h6>
-                </blockquote>
-              </div>
-              <div>
-                <blockquote class="quote inset-left-7p inset-right-7p">
-                  <div class="icon mdi mdi-comment-text-outline"></div>
-                  <p class="offset-top-30">
-                    <q>This place was fun and the food was good. The diversity of your menu impressed so much. All the dishes tasted great. Thank you! Would definitely recommend to all my friends.</q>
-                  </p>
-                  <h6 class="text-uppercase">
-                    <cite class="text-normal text-light">- Alex Ross, Visitor</cite>
-                  </h6>
-                </blockquote>
-              </div>
-            </div>
+            <carousel :items-to-show="1.5">
+              <slide v-for="slide in testimonials" :key="slide">
+                <div>
+                  <blockquote class="quote inset-left-7p inset-right-7p">
+                    <div class="icon mdi mdi-comment-text-outline"></div>
+                    <p class="offset-top-30">
+                      <q>{{ slide.content }}</q>
+                    </p>
+                    <h6 class="text-uppercase">
+                      <cite class="text-normal text-light">- {{ slide.author }}, Visitor</cite>
+                    </h6>
+                  </blockquote>
+                </div>
+              </slide>
+
+              <template #addons>
+                <navigation />
+                <pagination />
+              </template>
+            </carousel>
           </div>
         </section>
     </main>

@@ -3,12 +3,33 @@
 @import './css/fonts.css';
 
 .parallax-container {
-  background-image: url("../assets/images/home/cultivating-microgreens.jpg"); /* The image used */
+  background-image: url("../assets/images/Banner.jpeg"); /* The image used */
   background-color: #000000; /* Used if the image is unavailable */
   /*height: 500px;  You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+}
+.parallax-container-gallery {
+  background-image: url("../assets/images/Banner1 Cropped.jpeg"); /* The image used */
+  background-color: #000000; /* Used if the image is unavailable */
+  /*height: 500px;  You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.parallax-container-welcome {
+  background-image: url("../assets/images/Welcome.jpeg"); /* The image used */
+  background-color: #000000; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #333333;
+}
+.active a{
+  color: #ffffff;
 }
 /* #app {
   max-width: 1280px;

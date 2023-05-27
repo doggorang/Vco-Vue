@@ -64,7 +64,7 @@
   </header> -->
 
   <header class="page-head slider-menu-position">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3b3b3b;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #110a06;">
       <a class="navbar-brand" href="/">
         <img src="../assets/images/logo/Icon PSD V1 12-02-2023.png" width="70" height="55" alt="">
       </a>

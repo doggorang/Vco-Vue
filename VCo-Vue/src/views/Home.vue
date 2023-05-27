@@ -30,18 +30,18 @@
         <div class="row justify-content-center grid-group-md text-xl-left">
           <div class="col-md-8 col-xl-6">
             <div class="inset-xl-right-20">
-              <h1><span class="d-block font-accent big">Welcome</span><span class="d-block offset-top-4 h3 text-light text-uppercase">To Our Store</span></h1>
+              <h1><span class="d-block font-accent big">Welcome</span><span class="d-block offset-top-4 h3 text-uppercase">To Our Store</span></h1>
               <hr class="divider hr-xl-left-0 bg-mantis offset-top-30">
               <p>Welcome to Veggies & Co, your one-stop-shop for fresh and nutritious microgreens and vegetables! Our online store offers a wide selection of locally grown produce that is carefully handpicked and delivered straight to your doorstep. Whether you're a health-conscious foodie or just looking to add more greens to your diet, we have everything you need to live a healthy and balanced lifestyle. From nutrient-rich microgreens to a variety of fresh vegetables, our products are not only delicious but also packed with essential vitamins and minerals. We believe that everyone deserves access to fresh and healthy produce, which is why we strive to provide affordable and high-quality options for all of our customers. So why wait? Start exploring our website and order your favorite veggies today!</p>
             </div>
           </div>
-          <div class="col-md-8 col-xl-6">
-            <div class="shadow-drop-xl">
-              <!-- Media Elements-->
+          <div class="col-md-8 col-xl-6 parallax-container-welcome">
+            <!-- Isi Video nanti kalo ada ???? -->
+            <!-- <div class="shadow-drop-xl">
               <div class="embed-responsive embed-custom-16by9">
                 <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/S-ZPjRE6ZMw?wmode=transparent"></iframe>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@
     <!--Section Gallery-->
     <section>
       <div class="context-dark">
-        <div class="parallax-container" data-parallax-img="images/image-02-1920x935.jpg">
+        <div class="parallax-container-gallery">
           <div class="parallax-content">
             <div class="container section-98 section-md-110">
               <div>
