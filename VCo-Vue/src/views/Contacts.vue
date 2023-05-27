@@ -2,7 +2,7 @@
     <main class="page-content">
         <!-- Section Intro-->
         <section class="context-dark">
-          <div class="parallax-container" data-parallax-img="images/intro-01-1920x955.jpg">
+          <div class="parallax-container">
             <div class="parallax-content">
               <div class="container">
                 <div class="section-110 row justify-content-sm-center align-items-sm-center">

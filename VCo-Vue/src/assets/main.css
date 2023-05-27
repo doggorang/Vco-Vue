@@ -31,6 +31,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .active a{
   color: #ffffff;
 }
+.img-food{
+  max-width: 100%;
+  height: 540px;
+}
+.margin-bottom{
+  margin-bottom: 66px;
+}
 /* #app {
   max-width: 1280px;
   margin: 0 auto;

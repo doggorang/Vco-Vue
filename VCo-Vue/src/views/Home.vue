@@ -17,7 +17,7 @@
                   </div>
                 </div>
                 <p class="offset-top-24 big d-none d-md-block">We introduce new cultures to visitors through cuisines of various countries, offering a special dish to everyone regardless of their food preferences.</p>
-                <div class="group offset-top-50"><a class="btn btn-lg btn-primary" href="/Products" data-custom-scroll-to="reserve-now">Order Now</a></div>
+                <div class="group offset-top-50"><a class="btn btn-lg btn-primary" href="/product" data-custom-scroll-to="reserve-now">Order Now</a></div>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@
       </div>
     </section>
     <!--Section Gallery-->
-    <section>
+    <!-- <section>
       <div class="context-dark">
         <div class="parallax-container-gallery">
           <div class="parallax-content">
@@ -63,7 +63,7 @@
       <div class="container-fluid section-top-66 section-bottom-98">
         <div class="isotope-wrap">
           <div class="row">
-            <!-- Isotope Content-->
+            
             <div class="col-12">
               <div class="isotope" data-isotope-layout="masonry" data-isotope-group="gallery">
                 <div class="row" data-lightgallery="group">
@@ -109,7 +109,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
   </main>
 </template>
 

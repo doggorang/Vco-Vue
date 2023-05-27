@@ -36,7 +36,7 @@ buat owl carousel untuk testimony
     <main class="page-content">
         <!-- Section Intro-->
         <section class="context-dark">
-          <div class="parallax-container" data-parallax-img="images/intro-01-1920x955.jpg">
+          <div class="parallax-container">
             <div class="parallax-content">
               <div class="container">
                 <div class="section-110 row justify-content-sm-center align-items-sm-center">
@@ -59,29 +59,30 @@ buat owl carousel untuk testimony
             <div class="row justify-content-xl-center">
               <div class="col-xl-10">
                 <h1><span class="d-block font-accent big">Who We Are</span></h1>
-                <hr class="divider bg-mantis offset-top-30"><img class="img-fluid mx-auto d-block shadow-drop-xl offset-top-66" src="images/image-04-570x321.jpg" alt="" width="570" height="321">
-                <p class="offset-top-50">At Veggies & Co, we are passionate about providing our customers with the freshest and most nutritious microgreens and vegetables available. We believe that everyone should have access to healthy and delicious produce, which is why we work closely with local farmers to source only the best ingredients for our online store.</p>
+                <hr class="divider bg-mantis offset-top-30"><img class="img-fluid mx-auto d-block shadow-drop-xl offset-top-66" src="../assets/images/packs-microgreens.jpg" alt="" width="570" height="321">
+                <p class="offset-top-50">At Veggies & Co, we are passionate about providing our customers with the freshest and most nutritious microgreens and vegetables available. We believe that everyone should have access to healthy and delicious produce, which is why we work passionately to produce the best products for our store.</p>
               </div>
             </div>
           </div>
         </section>
         <!-- Section Our Awards-->
         <section class="context-dark">
-          <div class="parallax-container" data-parallax-img="images/image-05-1920x575.jpg">
+          <div class="parallax-container">
             <div class="parallax-content">
               <div class="container section-98 section-md-110">
                 <div class="row">
                   <div class="col-lg-4 text-lg-left">
-                    <h1><span class="d-block font-accent big">The Awards</span><span class="d-block offset-top-4 h3 text-light text-uppercase">We are Proud of</span></h1>
+                    <h1><span class="d-block font-accent big">The Achievement</span><span class="d-block offset-top-4 h3 text-light text-uppercase">We are Proud of</span></h1>
                     <hr class="divider hr-lg-left-0 bg-mantis offset-top-30">
-                    <p>This year our Restaurant has been acknowledged as the Best National Restaurant of 2015. We are extremely happy and proud of this recognition granted by 300+ industry experts.</p>
-                    <p>Such a prestigious award widens our list of prizes that we’ve earned over the last decade.</p>
+                    <p>Homegrown in our own founder residence, we started this journey with a humble beggining. We started from nothing and will keep getting better from then, now and future.</p>
+                    <p>Such a prestigious achievement makes us very proud. And to keep us going from our humble beggining we look forward for a brighter future.</p>
                   </div>
                   <div class="col-lg-8 offset-top-66 offset-lg-top-0">
                     <div class="row">
-                      <div class="col-4"><img class="img-fluid mx-auto d-block" src="images/image-06-170x326.png" alt="" width="170" height="326"></div>
+                      <!-- Ilustrasi Achievement ??? -->
+                      <!-- <div class="col-4"><img class="img-fluid mx-auto d-block" src="../assets/images/Clean.png" alt="" width="170" height="326"></div>
                       <div class="col-4"><img class="img-fluid mx-auto d-block" src="images/image-07-170x326.png" alt="" width="170" height="326"></div>
-                      <div class="col-4"><img class="img-fluid mx-auto d-block" src="images/image-08-170x326.png" alt="" width="170" height="326"></div>
+                      <div class="col-4"><img class="img-fluid mx-auto d-block" src="images/image-08-170x326.png" alt="" width="170" height="326"></div> -->
                     </div>
                   </div>
                 </div>
@@ -90,16 +91,16 @@ buat owl carousel untuk testimony
           </div>
         </section>
         <!-- Section Best Goods-->
-        <section style="background: url(images/image-11-1920x675.png) no-repeat center center">
+        <section class="margin-bottom">
           <div class="container section-66 section-md-bottom-0">
             <div class="row flex-lg-row-reverse">
               <div class="col-lg-5 text-lg-left section-lg-50">
                 <h1><span class="d-block font-accent big">Best Food</span><span class="d-block offset-top-4 h3 text-light text-uppercase">From our Head Chef</span></h1>
                 <hr class="divider hr-lg-left-0 bg-mantis offset-top-30">
                 <p>The work is always in a full swing in our kitchen! Everyone here is on fire when it comes to cooking. The best cooks all over the world are gathered here together to create something really special to impress you deeply.</p>
-                <p>The latest in cooking fashion, best recipes and fresh goods, this is the formula of our success.</p><img class="img-fluid offset-to-30" src="images/image-10-229x82.png" alt="" width="229" height="82">
+                <p>The latest in cooking fashion, best recipes and fresh goods, this is the formula of our success.</p>
               </div>
-              <div class="col-lg-7 align-self-lg-end d-none d-md-block"><img class="img-fluid" src="images/image-09-669x610.png" alt="" width="669" height="610"></div>
+              <div class="col-lg-7 align-self-lg-end d-none d-md-block"><img class="img-food" src="../assets/images/microgreen-product1.jpg" alt="" width="669" height="610"></div>
             </div>
           </div>
         </section>

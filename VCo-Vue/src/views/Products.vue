@@ -196,7 +196,7 @@ export default {
         <!-- Product List-->
         <section>
             <div class="context-dark">
-            <div class="parallax-container" data-parallax-img="images/image-01-1920x963.jpg">
+            <div class="parallax-container">
                 <div class="parallax-content">
                 <div class="container section-66 section-md-110">
                     <div>
