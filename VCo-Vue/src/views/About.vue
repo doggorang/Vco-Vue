@@ -110,7 +110,7 @@ buat owl carousel untuk testimony
           <div class="container">
             <h1><span class="d-block font-accent big">Testimonials</span><span class="d-block offset-top-4 h3 text-light text-uppercase">What people say</span></h1>
             <hr class="divider bg-mantis offset-top-30">
-            <carousel :items-to-show="1.5">
+            <carousel :items-to-show="1" :wrapAround="true" :autoplay="2500" :transition="500">
               <slide v-for="slide in testimonials" :key="slide">
                 <div>
                   <blockquote class="quote inset-left-7p inset-right-7p">

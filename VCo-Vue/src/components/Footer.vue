@@ -33,7 +33,7 @@
                 <div>
                   <dl>
                     <dt class="text-white">Address:</dt>
-                    <dd class="text-dark d-xl-block">28 Jackson Blvd Ste <span class="d-xl-block">60236 Surabaya</span> <span class="d-xl-block">IL 60604-2340.</span></dd>
+                    <dd class="text-dark d-xl-block">Tropodo<span class="d-xl-block">60236 Surabaya</span> <span class="d-xl-block">IL 60604-2340.</span></dd>
                   </dl>
                 </div>
                 <div>

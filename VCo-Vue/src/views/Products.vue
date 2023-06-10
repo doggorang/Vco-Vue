@@ -243,6 +243,32 @@ export default {
                     </div>
                 </div>
             </div>
+            <!-- Image Floating-->
+            <section class="section novi-background section-66">
+                <div class="container">
+                    <h2>Image Floating</h2>
+                    <hr class="divider divider-md bg-mantis">
+                    <div class="row offset-top-66">
+                        <div class="col-12 text-left"><img class="img-fluid pull-md-left" src="images/portfolio-16-370x280.jpg" alt="gambar370x280">
+                        <h3 class="offset-top-34 offset-md-top-0">This image is left floated</h3>
+                        <p>Ei tollit euismod cum, augue labore euripidis mel ex, ut corpora appellantur deterruisset mel. Quo et consulatu suscipiantur. In sed homero habemus neglegentur, ipsum putant periculis an nec. Usu mollis admodum vivendum at.</p>
+                        <p>Tollit fuisset mei ea, has no omnium accumsan, exerci dolorem praesent an mei. Ne etiam labores fabellas duo. Ex ubique melius ius, mea numquam atomorum no. Pri ei graece audiam, discere graecis ancillae id mea. Summo ignota virtute in sit. Mundi moderatius pri te, te tota minimum oportere eum.</p>
+                        <p>Sea quod soleat dolorum id. Tale lobortis laboramus eum no, ius vocibus pertinacia scribentur ex, qui consul semper no. Ne dicunt ponderum maiestatis sea, vix tollit eripuit scaevola ne.</p>
+                        </div>
+                    </div>
+                    <div class="row offset-top-50">
+                        <div class="col-12 text-left text-md-right"><img class="d-inline-block img-fluid pull-md-right" src="images/portfolio-15-370x280.jpg" alt="">
+                        <h3 class="offset-top-34 offset-md-top-0">This image is right floated</h3>
+                        <p>Ad posse doming appareat mea. Ex vix doctus minimum. Eleifend praesent cu pri, sed dicant laudem putent at. Sed eu dico summo habemus, sit in decore regione recusabo. Per ad tacimates mediocritatem.</p>
+                        <p>Integre delenit luptatum ei has, usu graecis democritum ei, eum ea iusto dictas concludaturque. Labore epicuri reformidans ad vis, in his quot doctus eripuit. Sit nominati senserit et. Quo causae blandit repudiandae in. Id vim dico liberavisse philosophia, vim mazim constituam ei.</p>
+                        <p>
+                            Ius eu paulo zril rationibus, ex vim porro consul voluptaria, sit habemus principes concludaturque ut. Ut nam suas graeco accusata. Pri no consulatu consetetur, eu cum eros saepe. Duo melius officiis senserit an, vix solum eruditi delectus ex, mel solet putant adversarium eu. Sit eu oratio persius, munere apeirian ne mei.
+                            
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
     </main>
 </template>
