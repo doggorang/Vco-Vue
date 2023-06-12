@@ -6,7 +6,7 @@
         <div class="parallax-content">
           <div class="container">
             <div class="section-110 section-cover row justify-content-sm-center align-items-sm-center">
-              <div class="col-lg-8"><img src="@/assets/images/logo/logo.png" alt="" width="175" height="173">
+              <div class="col-lg-8"><img src="@/assets/images/logo/logo-front.png" alt="" width="175" height="173">
                 <h1 class="font-accent"><span class="big">veggies & co</span></h1>
                 <div class="group">
                   <div class="group-item d-block"><span class="icon icon-xxs mdi mdi-navigation text-middle"></span> <span class="text-middle"><a class="link-white" href="https://goo.gl/maps/tPYpd55ZEM9vVsGX7" target="_blank">Tropodo, Sidoarjo Jawa Timur</a></span>

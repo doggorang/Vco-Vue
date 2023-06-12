@@ -40,7 +40,7 @@ buat owl carousel untuk testimony
             <div class="parallax-content">
               <div class="container">
                 <div class="section-110 row justify-content-sm-center align-items-sm-center">
-                  <div class="col-lg-8"><img src="@/assets/images/logo/logo.png" alt="" width="175" height="173">
+                  <div class="col-lg-8"><img src="@/assets/images/logo/logo-front.png" alt="" width="175" height="173">
                     <h1 class="font-accent"><span class="big">About Us</span></h1>
                     <ul class="list-inline list-inline-dashed p">
                       <li class="list-inline-item"><a href="/">Home</a></li>
@@ -59,7 +59,7 @@ buat owl carousel untuk testimony
             <div class="row justify-content-xl-center">
               <div class="col-xl-10">
                 <h1><span class="d-block font-accent big">Who We Are</span></h1>
-                <hr class="divider bg-mantis offset-top-30"><img class="img-fluid mx-auto d-block shadow-drop-xl offset-top-66" src="@/assets/images/packs-microgreens.jpg" alt="" width="570" height="321">
+                <hr class="divider bg-mantis offset-top-30"><img class="img-fluid mx-auto d-block shadow-drop-xl offset-top-66" src="@/assets/images/packs-microgreens-min.jpg" alt="" width="570" height="321">
                 <p class="offset-top-50">At Veggies & Co, we are passionate about providing our customers with the freshest and most nutritious microgreens and vegetables available. We believe that everyone should have access to healthy and delicious produce, which is why we work passionately to produce the best products for our store.</p>
               </div>
             </div>
@@ -100,7 +100,7 @@ buat owl carousel untuk testimony
                 <p>The work is always in a full swing in our kitchen! Everyone here is on fire when it comes to cooking. The best cooks all over the world are gathered here together to create something really special to impress you deeply.</p>
                 <p>The latest in cooking fashion, best recipes and fresh goods, this is the formula of our success.</p>
               </div>
-              <div class="col-lg-7 align-self-lg-end d-none d-md-block"><img class="img-food" src="@/assets/images/microgreen-product1.jpg" alt="" width="669" height="610"></div>
+              <div class="col-lg-7 align-self-lg-end d-none d-md-block"><img class="img-food" src="@/assets/images/microgreen-product1-min.jpg" alt="" width="669" height="610"></div>
             </div>
           </div>
         </section>
