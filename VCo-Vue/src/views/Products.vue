@@ -1,193 +1,239 @@
 <script>
-
 export default {
     data() {
         return {
-            content: `<div class="col-12 col-lg-4 isotope-item">
-                    <div class="inset-lg-right-20">
-                        <!-- Pricing Box type 1-->
-                        <ul class="box-pricing box-pricing-type-1 list-unstyled">
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Old Timer's Vege</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$22.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Two eggs cooked to order with grits, sawmill gravy, homemade buttermilk biscuits &amp; real butter  )
-                            </div>
-                        </li>
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Fresh Start Sampler</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$37.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Start your day with a mix of low fat vanilla yogurt, fresh seasonal fruit topped with our honey mix )
-                            </div>
-                        </li>
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Double Vege Breakfast</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$42.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Three eggs cooked to order with a full order of bacon and sausage patties )
-                            </div>
-                        </li>
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Crab &amp; avocado bruschetta</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$19.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Fresh white&amp;brown crab, crunchy fennel, smashed avocado, yoghurt &amp; chilli )
-                            </div>
-                        </li>
-                        </ul>
-                    </div>
+            activeTab: 0,
+            products: [
+                `
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-1" class="single-product">
+                                <div class="part-1">
+                                        <ul>
+                                            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="part-2">
+                                        <h3 class="product-title">Veggetable 1</h3>
+                                        <h4 class="product-old-price">Rp. 79.000,99</h4>
+                                        <h4 class="product-price">Rp. 49.000,99</h4>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-2" class="single-product">
+                                <div class="part-1">
+                                        <span class="discount">15% off</span>
+                                        <ul>
+                                            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="part-2">
+                                        <h3 class="product-title">Veggetable 2</h3>
+                                        <h4 class="product-price">Rp. 49.000,99</h4>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-3" class="single-product">
+                                <div class="part-1">
+                                        <ul>
+                                            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="part-2">
+                                        <h3 class="product-title">Veggetable 3</h3>
+                                        <h4 class="product-old-price">Rp. 79.000,99</h4>
+                                        <h4 class="product-price">Rp. 49.000,99</h4>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-4" class="single-product">
+                                <div class="part-1">
+                                        <span class="new">new</span>
+                                        <ul>
+                                            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="part-2">
+                                        <h3 class="product-title">Veggetable 4</h3>
+                                        <h4 class="product-price">Rp. 49.000,99</h4>
+                                </div>
+                        </div>
                 </div>`,
-            activeTab: 0
+                `
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-1" class="single-product">
+                                <div class="part-1">
+                                        <ul>
+                                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="part-2">
+                                        <h3 class="product-title">Snack 1</h3>
+                                        <h4 class="product-old-price">Rp. 79.000,99</h4>
+                                        <h4 class="product-price">Rp. 49.000,99</h4>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-2" class="single-product">
+                                <div class="part-1">
+                                        <span class="discount">15% off</span>
+                                        <ul>
+                                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="part-2">
+                                        <h3 class="product-title">Snack 2</h3>
+                                        <h4 class="product-price">Rp. 49.000,99</h4>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-3" class="single-product">
+                                <div class="part-1">
+                                        <ul>
+                                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="part-2">
+                                        <h3 class="product-title">Snack 3</h3>
+                                        <h4 class="product-old-price">Rp. 79.000,99</h4>
+                                        <h4 class="product-price">Rp. 49.000,99</h4>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-4" class="single-product">
+                                <div class="part-1">
+                                        <span class="new">new</span>
+                                        <ul>
+                                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="part-2">
+                                        <h3 class="product-title">Snack 4</h3>
+                                        <h4 class="product-price">Rp. 49.000,99</h4>
+                                </div>
+                        </div>
+                </div>`,
+                `
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-1" class="single-product">
+                                <div class="part-1">
+                                        <ul>
+                                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="part-2">
+                                        <h3 class="product-title">Dessert 1</h3>
+                                        <h4 class="product-old-price">Rp. 79.000,99</h4>
+                                        <h4 class="product-price">Rp. 49.000,99</h4>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-2" class="single-product">
+                                <div class="part-1">
+                                        <span class="discount">15% off</span>
+                                        <ul>
+                                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="part-2">
+                                        <h3 class="product-title">Dessert 2</h3>
+                                        <h4 class="product-price">Rp. 49.000,99</h4>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-3" class="single-product">
+                                <div class="part-1">
+                                        <ul>
+                                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="part-2">
+                                        <h3 class="product-title">Dessert 3</h3>
+                                        <h4 class="product-old-price">Rp. 79.000,99</h4>
+                                        <h4 class="product-price">Rp. 49.000,99</h4>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-4" class="single-product">
+                                <div class="part-1">
+                                        <span class="new">new</span>
+                                        <ul>
+                                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="part-2">
+                                        <h3 class="product-title">Dessert 4</h3>
+                                        <h4 class="product-price">Rp. 49.000,99</h4>
+                                </div>
+                        </div>
+                </div>`
+            ],
+            content: ''
         }
     },
     methods: {
         filter(category) {
             if (category == "Veggetable") {
-                this.activeTab = 0;
-                this.content = `<div class="col-12 col-lg-4 isotope-item">
-                    <div class="inset-lg-right-20">
-                        <!-- Pricing Box type 1-->
-                        <ul class="box-pricing box-pricing-type-1 list-unstyled">
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Old Timer's Vege</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$22.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Two eggs cooked to order with grits, sawmill gravy, homemade buttermilk biscuits &amp; real butter  )
-                            </div>
-                        </li>
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Fresh Start Sampler</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$37.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Start your day with a mix of low fat vanilla yogurt, fresh seasonal fruit topped with our honey mix )
-                            </div>
-                        </li>
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Double Vege Breakfast</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$42.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Three eggs cooked to order with a full order of bacon and sausage patties )
-                            </div>
-                        </li>
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Crab &amp; avocado bruschetta</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$19.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Fresh white&amp;brown crab, crunchy fennel, smashed avocado, yoghurt &amp; chilli )
-                            </div>
-                        </li>
-                        </ul>
-                    </div>
-                </div>`;
-            } else if (category == "Snack") {
                 this.activeTab = 1;
-                this.content = `<div class="col-12 col-lg-4 isotope-item">
-                    <div class="inset-lg-right-20">
-                        <!-- Pricing Box type 1-->
-                        <ul class="box-pricing box-pricing-type-1 list-unstyled">
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Old Timer's Snack</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$22.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Two eggs cooked to order with grits, sawmill gravy, homemade buttermilk biscuits &amp; real butter  )
-                            </div>
-                        </li>
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Fresh Start Snack</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$37.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Start your day with a mix of low fat vanilla yogurt, fresh seasonal fruit topped with our honey mix )
-                            </div>
-                        </li>
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Double Sugar Snack</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$42.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Three eggs cooked to order with a full order of bacon and sausage patties )
-                            </div>
-                        </li>
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Crab &amp; avocado Ice Cream</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$19.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Fresh white&amp;brown crab, crunchy fennel, smashed avocado, yoghurt &amp; chilli )
-                            </div>
-                        </li>
-                        </ul>
-                    </div>
-                </div>`;
-            } else if (category == "Dessert") {
+                this.content = this.products[0];
+            } else if (category == "Snack") {
                 this.activeTab = 2;
-                this.content = `<div class="col-12 col-lg-4 isotope-item">
-                    <div class="inset-lg-right-20">
-                        <!-- Pricing Box type 1-->
-                        <ul class="box-pricing box-pricing-type-1 list-unstyled">
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Old Timer's Pancake</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$22.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Two eggs cooked to order with grits, sawmill gravy, homemade buttermilk biscuits &amp; real butter  )
-                            </div>
-                        </li>
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Fresh Start Lemon</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$37.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Start your day with a mix of low fat vanilla yogurt, fresh seasonal fruit topped with our honey mix )
-                            </div>
-                        </li>
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Double Ice Fresh</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$42.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Three eggs cooked to order with a full order of bacon and sausage patties )
-                            </div>
-                        </li>
-                        <li class="box-pricing-item">
-                            <div class="box-pricing-title big text-uppercase text-spacing-120">
-                            <div class="box-pricing-name text-darker font-weight-bold">Crab &amp; avocado bruschetta</div>
-                            <div class="box-pricing-dots"></div>
-                            <div class="box-pricing-price h5 font-weight-bold">$19.00</div>
-                            </div>
-                            <div class="box-pricing-desc text-dark offset-top-10">( Fresh white&amp;brown crab, crunchy fennel, smashed avocado, yoghurt &amp; chilli )
-                            </div>
-                        </li>
-                        </ul>
-                    </div>
-                </div>`;
+                this.content = this.products[1];
+            } else if (category == "Dessert") {
+                this.activeTab = 3;
+                this.content = this.products[2];
+            } else {
+                this.activeTab = 0;
+                this.content = `${this.products[0]}${this.products[1]}${this.products[2]}`;
             }
         }
+    },
+    mounted(){
+        this.filter("All");
     }
 }
 </script>
@@ -225,50 +271,28 @@ export default {
                                         <!-- .teamSelector { cursor: pointer; } -->
                                         <!-- span:hover { cursor:pointer; } -->
                                         <li class="list-inline-item"><a class="text-sbold"
-                                            :class="{ 'active': activeTab == 0 }" @click="filter('Veggetable')">Veggetable</a></li>
+                                            :class="{ 'active': activeTab == 0 }" @click="filter('All')">All</a></li>
                                         <li class="list-inline-item"><a class="text-sbold"
-                                            :class="{ active: activeTab == 1 }" @click="filter('Snack')">Snack</a></li>
+                                            :class="{ 'active': activeTab == 1 }" @click="filter('Veggetable')">Veggetable</a></li>
                                         <li class="list-inline-item"><a class="text-sbold"
-                                            :class="{ active: activeTab == 2 }" @click="filter('Dessert')">Dessert</a></li>
+                                            :class="{ active: activeTab == 2 }" @click="filter('Snack')">Snack</a></li>
+                                        <li class="list-inline-item"><a class="text-sbold"
+                                            :class="{ active: activeTab == 3 }" @click="filter('Dessert')">Dessert</a></li>
                                     </ul>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-xl-12 offset-top-34">
-                            <div class="row" v-html="content">
-
-                            </div>
+                            <section class="section-products">
+                                <div class="container">
+                                    <div class="row" v-html="content"></div>
+                                </div>
+                            </section>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Image Floating-->
-            <section class="section novi-background section-66">
-                <div class="container">
-                    <h2>Image Floating</h2>
-                    <hr class="divider divider-md bg-mantis">
-                    <div class="row offset-top-66">
-                        <div class="col-12 text-left"><img class="img-fluid pull-md-left" src="@/assets/images/370x280.jpg" alt="">
-                        <h3 class="offset-top-34 offset-md-top-0">This image is left floated</h3>
-                        <p>Ei tollit euismod cum, augue labore euripidis mel ex, ut corpora appellantur deterruisset mel. Quo et consulatu suscipiantur. In sed homero habemus neglegentur, ipsum putant periculis an nec. Usu mollis admodum vivendum at.</p>
-                        <p>Tollit fuisset mei ea, has no omnium accumsan, exerci dolorem praesent an mei. Ne etiam labores fabellas duo. Ex ubique melius ius, mea numquam atomorum no. Pri ei graece audiam, discere graecis ancillae id mea. Summo ignota virtute in sit. Mundi moderatius pri te, te tota minimum oportere eum.</p>
-                        <p>Sea quod soleat dolorum id. Tale lobortis laboramus eum no, ius vocibus pertinacia scribentur ex, qui consul semper no. Ne dicunt ponderum maiestatis sea, vix tollit eripuit scaevola ne.</p>
-                        </div>
-                    </div>
-                    <div class="row offset-top-50">
-                        <div class="col-12 text-left text-md-right"><img class="d-inline-block img-fluid pull-md-right" src="@/assets/images/370x280.jpg" alt="">
-                        <h3 class="offset-top-34 offset-md-top-0">This image is right floated</h3>
-                        <p>Ad posse doming appareat mea. Ex vix doctus minimum. Eleifend praesent cu pri, sed dicant laudem putent at. Sed eu dico summo habemus, sit in decore regione recusabo. Per ad tacimates mediocritatem.</p>
-                        <p>Integre delenit luptatum ei has, usu graecis democritum ei, eum ea iusto dictas concludaturque. Labore epicuri reformidans ad vis, in his quot doctus eripuit. Sit nominati senserit et. Quo causae blandit repudiandae in. Id vim dico liberavisse philosophia, vim mazim constituam ei.</p>
-                        <p>
-                            Ius eu paulo zril rationibus, ex vim porro consul voluptaria, sit habemus principes concludaturque ut. Ut nam suas graeco accusata. Pri no consulatu consetetur, eu cum eros saepe. Duo melius officiis senserit an, vix solum eruditi delectus ex, mel solet putant adversarium eu. Sit eu oratio persius, munere apeirian ne mei.
-                            
-                        </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </section>
     </main>
 </template>
