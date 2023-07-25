@@ -212,7 +212,8 @@ export default {
                         </div>
                 </div>`
             ],
-            content: ''
+            content: '',
+            showList: false
         }
     },
     methods: {
@@ -230,6 +231,10 @@ export default {
                 this.activeTab = 0;
                 this.content = `${this.products[0]}${this.products[1]}${this.products[2]}`;
             }
+            this.showList = false;
+        },
+        filterButton() {
+            this.showList = !this.showList;
         }
     },
     mounted(){
@@ -266,7 +271,19 @@ export default {
                                     <p>Choose your category:</p>
                                     </li>
                                     <li class="list-inline-item section-relative">
-                                    <button class="isotope-filters-toggle btn btn-sm btn-default" data-custom-toggle="isotope-1" data-custom-toggle-disable-on-blur="true">Filter<span class="caret"></span></button>
+                                    <button class="isotope-filters-toggle btn btn-sm btn-default" data-custom-toggle="isotope-1" data-custom-toggle-disable-on-blur="true" @click="filterButton()">Filter<span class="caret"></span></button>
+                                    <div class="fd__list" v-show="showList">
+                                        <ul>
+                                                <li class="list-inline-item fd__item"><a class="text-sbold"
+                                                        :class="{ 'active': activeTab == 0 }" @click="filter('All')">All</a></li>
+                                                <li class="list-inline-item fd__item"><a class="text-sbold"
+                                                        :class="{ 'active': activeTab == 1 }" @click="filter('Veggetable')">Veggetable</a></li>
+                                                <li class="list-inline-item fd__item"><a class="text-sbold"
+                                                        :class="{ active: activeTab == 2 }" @click="filter('Snack')">Snack</a></li>
+                                                <li class="list-inline-item fd__item"><a class="text-sbold"
+                                                        :class="{ active: activeTab == 3 }" @click="filter('Dessert')">Dessert</a></li>
+                                        </ul>
+                                    </div>
                                     <ul class="list-sm-inline isotope-filters-list" id="isotope-1">
                                         <!-- .teamSelector { cursor: pointer; } -->
                                         <!-- span:hover { cursor:pointer; } -->
@@ -296,3 +313,35 @@ export default {
         </section>
     </main>
 </template>
+
+<style scoped>
+.fd__list {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    padding: 4px;
+    border: solid 1px rgb(192, 192, 192);
+    background: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    margin-top: -1px;
+}
+.fd__list ul {
+        margin: 4px 0 0 0;
+        padding: 4px;
+        overflow-x: auto;
+        overflow-y: scroll;
+        max-height: 40vh;
+}
+
+.fd__list ul li {
+        padding: 4px 1px;
+        cursor: pointer;
+        list-style: none;
+        line-height: 1;
+}
+
+.fd__list ul li:hover {
+        background: aliceblue;
+}        
+</style>
